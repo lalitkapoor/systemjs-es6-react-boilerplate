@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "jspm install -y && node server.js"
   },
   "author": "Lalit Kapoor <lalitkapoor@gmail.com>",
   "license": "MIT",
