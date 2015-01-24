@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-import React from 'react/react-with-addons'
+import React from 'react'
 
 export default React.createClass({
     displayName: 'Test'
