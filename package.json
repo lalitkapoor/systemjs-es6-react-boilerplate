@@ -1,5 +1,5 @@
 {
-  "name": "react-systemjs-es6-boilerplate",
+  "name": "systemjs-es6-react-boilerplate",
   "version": "0.1.0",
   "description": "a sample app in es6 making use of systemjs, react, jspm",
   "main": "server.js",
