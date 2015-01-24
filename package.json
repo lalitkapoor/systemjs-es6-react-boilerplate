@@ -1,0 +1,32 @@
+{
+  "name": "react-systemjs-es6-boilerplate",
+  "version": "0.1.0",
+  "description": "a sample app in es6 making use of systemjs, react, jspm",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lalitkapoor/react-systemjs-es6-boilerplate.git"
+  },
+  "dependencies": {
+    "finalhandler": "^0.3.3",
+    "serve-static": "^1.8.1"
+  },
+  "devDependencies": {
+    "jspm": "^0.10.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lalit Kapoor <lalitkapoor@gmail.com>",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "public"
+    },
+    "dependencies": {
+      "jsx": "npm:jsx-plugin@^0.0.5",
+      "react": "github:reactjs/react-bower@^0.12.2"
+    }
+  }
+}
