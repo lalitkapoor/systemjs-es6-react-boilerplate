@@ -1,6 +1,6 @@
 systemjs-es6-react-boilerplate
 =========
-A sample app in es6 making use of systemjs, react, jspm.
+A boilerplate app in es6 making use of systemjs, react, jspm.
 
 To run:
 
