@@ -2,6 +2,14 @@ systemjs-es6-react-boilerplate
 =========
 A sample app in es6 making use of systemjs, react, jspm.
 
+To run:
+
+```bash
+npm install
+jspm install
+npm start
+```
+
 To run with docker:
 
 ```bash
