@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 import React from 'react'
 import Test from './test.jsx!'
 

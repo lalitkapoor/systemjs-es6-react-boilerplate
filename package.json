@@ -8,12 +8,12 @@
     "url": "git@github.com:lalitkapoor/react-systemjs-es6-boilerplate.git"
   },
   "dependencies": {
-    "express": "^4.12.4",
-    "finalhandler": "^0.3.3",
-    "serve-static": "^1.8.1"
+    "express": "4.12.4",
+    "finalhandler": "0.3.3",
+    "serve-static": "1.8.1"
   },
   "devDependencies": {
-    "jspm": "^0.10.6"
+    "jspm": "0.10.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,8 +27,8 @@
       "baseURL": "public"
     },
     "dependencies": {
-      "jsx": "^0.1.1",
-      "react": "^0.12.2"
+      "jsx": "1.1.0",
+      "react": "0.13.3"
     }
   }
 }
