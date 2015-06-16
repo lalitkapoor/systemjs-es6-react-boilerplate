@@ -9,10 +9,10 @@ System.config({
 
 System.config({
   "map": {
-    "jsx": "github:floatdrop/plugin-jsx@0.1.1",
-    "react": "npm:react@0.12.2",
-    "github:floatdrop/plugin-jsx@0.1.1": {
-      "react-tools": "npm:react-tools@0.12.2"
+    "jsx": "github:floatdrop/plugin-jsx@1.1.0",
+    "react": "npm:react@0.13.3",
+    "github:floatdrop/plugin-jsx@1.1.0": {
+      "react-tools": "npm:react-tools@0.13.3"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -204,10 +204,6 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:esprima-fb@8001.1001.0-dev-harmony-fb": {
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.1"
-    },
     "npm:glob@4.2.2": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "events": "github:jspm/nodelibs-events@0.1.1",
@@ -255,14 +251,6 @@ System.config({
       "base62": "npm:base62@0.1.1",
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "esprima-fb": "npm:esprima-fb@13001.1001.0-dev-harmony-fb",
-      "fs": "github:jspm/nodelibs-fs@0.1.2",
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "source-map": "npm:source-map@0.1.31"
-    },
-    "npm:jstransform@8.2.0": {
-      "base62": "npm:base62@0.1.1",
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "esprima-fb": "npm:esprima-fb@8001.1001.0-dev-harmony-fb",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "source-map": "npm:source-map@0.1.31"
@@ -325,13 +313,13 @@ System.config({
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:react-tools@0.12.2": {
+    "npm:react-tools@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "commoner": "npm:commoner@0.10.1",
-      "jstransform": "npm:jstransform@8.2.0",
+      "jstransform": "npm:jstransform@10.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:react@0.12.2": {
+    "npm:react@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "envify": "npm:envify@3.4.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
