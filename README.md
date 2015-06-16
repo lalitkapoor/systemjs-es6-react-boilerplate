@@ -6,7 +6,6 @@ To run:
 
 ```bash
 npm install
-jspm install
 npm start
 ```
 

@@ -7,6 +7,5 @@ WORKDIR /sample
 
 EXPOSE 80
 
-RUN npm install
-RUN ./node_modules/.bin/jspm install -y
+RUN npm install --unsafe-perm
 CMD npm start
