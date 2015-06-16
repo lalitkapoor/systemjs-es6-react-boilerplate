@@ -8,6 +8,7 @@
     "url": "git@github.com:lalitkapoor/react-systemjs-es6-boilerplate.git"
   },
   "dependencies": {
+    "express": "^4.12.4",
     "finalhandler": "^0.3.3",
     "serve-static": "^1.8.1"
   },
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "./node_modules/.bin/jspm install"
   },
   "author": "Lalit Kapoor <lalitkapoor@gmail.com>",
   "license": "MIT",
